@@ -71,7 +71,7 @@ set files [list \
 add_files -fileset $obj $files
 
 # Source Block Design.
-set file "[file normalize "$origin_dir/bd/d_1.tcl"]"
+set file "[file normalize "$origin_dir/bd/bd_111_2020-2.tcl"]"
 source $file
 
 # Update compile order.
