@@ -1,13 +1,16 @@
 
-Run
+Re-create the vivado project
 --------------
-Open git bash, then run:
-
+1. Clone this repo.
+2. Open vivado GUI.
+3. In the tcl console, cd to the cloned repo directory. Need to use forward slash ("/").
+4. Run the commond
 ```console
-sh start_vivado.sh
+source proj_111.tcl
 ```
+
 
 Files
 --------------    
-- top_111.tcl: Generated from a vivado project for which we want to save a snapshot on github for version control.
-- All remaining files are files that will be referneced by the vivado project. Don't change their locations relative to top_111.tcl, otherwise the process of re-creating the vivado project might fail.
+- axis_pfb_readout-test.ipynb: python codes for testing pfb readout out ip.
+- proj_111.tcl: tcl scripts for re-creating vivado project.
